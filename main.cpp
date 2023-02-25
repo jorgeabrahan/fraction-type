@@ -145,23 +145,22 @@ int main()
         cout << a << " is greater than or equal to " << b << endl;
     }
 
-    cout<<"\nAll the operations we\'ve done so far with double and fraction you can also"<<endl;
-    cout<<"do them with type \'float\' and \'int\'"<<endl;
-    
-    cout<<"\nYou can also use the assignment operator with all these types"<<endl;
-		fraction convert_to_types(10, 3);
-		double example_d = 2.456;
-		float example_f = 2.5;
-		int example_i = 2;
-		
-		example_d = convert_to_types;
-		cout<<convert_to_types<<" stored in a double is: "<<example_d<<endl;
-		example_f = convert_to_types;
-		cout<<convert_to_types<<" stored in a float is: "<<example_f<<endl;
-		example_i = convert_to_types;
-		cout<<convert_to_types<<" stored in an int is: "<<example_i<<endl;
-    
-    
+    cout << "\nAll the operations we\'ve done so far with double and fraction you can also" << endl;
+    cout << "do them with type \'float\' and \'int\'" << endl;
+
+    cout << "\nYou can also use the assignment operator with all these types" << endl;
+    fraction convert_to_types(10, 3);
+    double example_d = 2.456;
+    float example_f = 2.5;
+    int example_i = 2;
+
+    example_d = convert_to_types;
+    cout << convert_to_types << " stored in a double is: " << example_d << endl;
+    example_f = convert_to_types;
+    cout << convert_to_types << " stored in a float is: " << example_f << endl;
+    example_i = convert_to_types;
+    cout << convert_to_types << " stored in an int is: " << example_i << endl;
+
     // Handle exceptions
     try
     {
